@@ -1,26 +1,43 @@
-.app {
+.container {
+  display: flex;
   flex: 1;
+  background-color: #efeff4;
+}
+.setting_list_container {
+  padding-left: 30;
+  background-color: #fff;
+  border-bottom: 1px solid #c8c7cc;
+  border-top: 1px solid #c8c7cc;
+  margin-bottom: 85;
+  margin-top: 90;
+}
+.setting_list_item {
+  height: 85;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.setting_list_item_frist {
+  border-bottom: 1px solid #c8c7cc;
+}
+.setting_list_item_text {
+  font-size: 31;
+}
+.logout_button {
+  height: 90;
+  background-color: #ff0000;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.appHeader {
-  background-color: #222;
-  height: 160;
-  padding: 40;
+.logout_button_text {
+  color: #fff;
+  font-size: 36;
 }
 
-.appBanner, .appIntro {
-  text-align: center;
-}
-
-.appBanner {
-  font-size: 80;
-  color: white;
-}
-
-.appIntro {
-  margin-top: 40;
-  font-size: 40;
-  line-height: 60;
+.arrow {
+  width: 16;
+  height: 30;
 }
